@@ -1,2 +1,2 @@
-# Info_Covid_con_Sendero_Tech
+# Info_Covid
 Página sobre el origen del Covid
