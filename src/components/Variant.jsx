@@ -1,11 +1,14 @@
-function Variant() {
+
+function Variant(props) {
     return (
         <article>
-            <img src="Imagen" alt="" />
-            <h2>Nombre variante</h2>
-            <p>Descripcion de la variante, lo que la hace especial</p>
-            <p>Duracion:</p>
-            <p>Mas info</p>
+            <img src="" alt="" />
+            <img src={props.origin} alt="" />
+            <h2>{props.name}</h2>
+            <p>{props.description}</p>
+            <div className="article__info">
+                <p>{props.date}</p>
+            </div>
         </article>
     )
 }

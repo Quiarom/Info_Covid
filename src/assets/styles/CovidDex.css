@@ -1,0 +1,35 @@
+    :root {
+    --bg-color: #DEECFC;
+    --secondary-bg: #cdddf5;
+    --letter-color: #18202a;
+    --principal-color: #396499;
+    --secondary-color: #8d67b4;
+    --principal-typo:'Poppins', sans-serif;
+    --secondary-typo:'Rubik', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    width: 500px;
+    text-align: center;
+    background-color: var(--principal-color);
+    margin: 20px;
+}
+
+.article__info {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 20px;
+}
