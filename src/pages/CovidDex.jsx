@@ -1,9 +1,11 @@
 import Footer from "../components/Footer";
-
+import Variant from "../components/Variant";
 function Home() {
     return (
     <>
-        <a href="./CovidDex">Ir a la coviddex</a>
+        <main>
+            <Variant />
+        </main>
         <Footer/>
     </>
 )
