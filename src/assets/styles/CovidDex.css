@@ -8,28 +8,34 @@
     --secondary-typo:'Rubik', sans-serif;
 }
 
-body {
-    box-sizing: border-box;
-}
-
 main {
     width: 100%;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    font-family: var(--principal-typo);
 }
 
 article {
-    width: 500px;
+    width: 400px;
     text-align: center;
-    background-color: var(--principal-color);
-    margin: 20px;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: var(--secondary-bg);
+    border-radius: 10px;
 }
 
-.article__info {
-    display: flex;
-    justify-content: center;
+.article__title {
+    font-family: var(--secondary-typo);
+    margin: 0;
 }
 
-img {
-    height: 20px;
+.article__date {
+    font-size: 12px;
+}
+
+.article__origin {
+    width: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
 }

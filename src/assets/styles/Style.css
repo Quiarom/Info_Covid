@@ -8,11 +8,18 @@
     --secondary-typo:'Rubik', sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    width: 100%;
     background-color: var(--bg-color);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--letter-color);
 }
 
 a {
@@ -30,7 +37,6 @@ footer {
     text-align: center;
     font-family: var(--secondary-typo);
     font-weight: 500;
-    color: var(--letter-color);
     font-size: 22px;
     padding-top: 10px;
 }

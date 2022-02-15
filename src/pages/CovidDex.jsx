@@ -1,21 +1,29 @@
 import Footer from "../components/Footer";
 import Variant from "../components/Variant";
 import "../assets/styles/CovidDex.css"
+// IMG
 import USA from '../assets/Estados Unidos.png'
+import CO from '../assets/Colombia.png'
+import BR from '../assets/Brasil.png'
+import ZA from '../assets/Sudafrica.png'
+import GB from '../assets/Reino Unido.png'
+import IN from '../assets/India.png'
+import PH from '../assets/Filipinas.png'
+import NG from '../assets/Nigeria.png'
 
 const info = [
-    { name:'Alpha', description: 'Entre un 45% y un 90% más contagiosa', origin:'Reino Unido.png', date:'Octubre de 2020'},
-    { name:'Delta', description: 'Sin evidencia de cambios', origin:'India.png', date:'Octubre de 2020'},
-    { name:'Beta', description: '', origin:'Sudáfrica.png', date:'Diciembre de 2020'},
-    { name:'Gamma', description: '', origin:'Brasil.png', date:'Enero 2021'},
+    { name:'Alpha', description: 'Entre un 45% y un 90% más contagiosa', origin:GB, date:'Octubre de 2020'},
+    { name:'Delta', description: 'Sin evidencia de cambios', origin:IN, date:'Octubre de 2020'},
+    { name:'Beta', description: '', origin:ZA, date:'Diciembre de 2020'},
+    { name:'Gamma', description: '', origin:BR, date:'Enero 2021'},
     { name:'Epsilon', description: '', origin:USA, date:'Marzo de 2020'},
-    { name:'Eta', description: '', origin:'Nigeria.png', date:'Diciembre de 2020'},
-    { name:'Iota', description: '', origin:'Estados Unidos.png', date:'Noviembre de 2020'},
-    { name:'Kappa', description: '', origin:'India.png', date:'Octubre de 2020'},
-    { name:'Mu', description: '', origin:'Colombia.png', date:'Enero 2021'},
-    { name:'Theta', description: '', origin:'Filipinas.png', date:'Enero 2021'},
-    { name:'Zeta', description: 'Abril de 2020', origin:'Brasil.png', date:'Abril de 2020'},
-    { name:'Omicrón', description: '', origin:'Sudáfrica.png', date:'Noviembre de 2021'}
+    { name:'Eta', description: '', origin:NG, date:'Diciembre de 2020'},
+    { name:'Iota', description: '', origin:USA, date:'Noviembre de 2020'},
+    { name:'Kappa', description: '', origin:IN, date:'Octubre de 2020'},
+    { name:'Mu', description: '', origin:CO, date:'Enero 2021'},
+    { name:'Theta', description: '', origin:PH, date:'Enero 2021'},
+    { name:'Zeta', description: 'Abril de 2020', origin:BR, date:'Abril de 2020'},
+    { name:'Omicrón', description: '', origin:ZA, date:'Noviembre de 2021'}
 ]
 
 function Home() {
